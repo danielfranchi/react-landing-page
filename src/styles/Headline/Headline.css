@@ -1,0 +1,27 @@
+.title {
+  font-size: 3em;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 10px;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 110%;
+  z-index: 1;
+}
+
+.headline {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+}
+
+.headline p {
+  width: 380px;
+}
+
+.headline span {
+  padding-top: 20px;
+}

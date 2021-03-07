@@ -1,0 +1,27 @@
+.menu-bg {
+  background: linear-gradient(180deg, #f6fafd 0%, #ffffff 19.4%);
+}
+
+.menu {
+  max-width: 960px;
+  padding: 15px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-logo {
+  margin: 0 10px;
+}
+
+.menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-nav li {
+  font-size: 1.25em;
+  padding: 10px;
+}

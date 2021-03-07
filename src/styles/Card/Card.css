@@ -1,0 +1,20 @@
+.card {
+  max-width: 960px;
+  height: 560px;
+
+  padding: 15px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(240, 99, 184, 0.15);
+  border-radius: 50px;
+}
+
+.card-container {
+  width: 375px;
+  height: 210px;
+  margin-right: 80px;
+}

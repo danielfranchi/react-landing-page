@@ -1,0 +1,31 @@
+#testimonials-container {
+  max-width: 960px;
+  height: 560px;
+  padding: 15px 40px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #9c69e2;
+  border-radius: 50px;
+}
+
+#testimonials {
+  max-width: 960px;
+  color: white;
+  padding: 50px;
+}
+
+#testimonials-img {
+  max-width: 645px;
+  height: 330px;
+  padding: 15px 25px;
+  margin: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  overflow: unset;
+  background: white;
+  border-radius: 20px;
+}

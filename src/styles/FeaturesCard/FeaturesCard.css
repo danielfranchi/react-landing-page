@@ -1,0 +1,17 @@
+.features {
+  max-width: 960px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 358px;
+}
+
+#paragraph {
+  width: 220px;
+  height: 160px;
+}
+
+#card-text {
+  display: block;
+}
