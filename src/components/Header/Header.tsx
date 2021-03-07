@@ -12,9 +12,9 @@ const Header = () => {
           <Logo />
         </div>
 
-        <nav className="menu-nav">
+        <nav className="menu-nav" data-testid="list">
           <ul>
-            <li>About</li>
+            <li data-testid="item">About</li>
             <li>Help</li>
             <li>Features</li>
             <li>Signup</li>
@@ -22,7 +22,7 @@ const Header = () => {
         </nav>
 
         <div className="btn">
-          <Button text="Request Demo" color='#212353' background='FFFFFF' />
+          <Button text="Request Demo" color="#212353" background="FFFFFF" />
         </div>
       </div>
     </header>

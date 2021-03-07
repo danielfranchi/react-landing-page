@@ -9,7 +9,7 @@ interface textButton {
 }
 
 const Button = (props: textButton) => {
-  return <button id="btn" style={{color: props.color, background: props.background }}>{props.text}</button>;
+  return <button id="btn" title='btn' style={{color: props.color, background: props.background }}>{props.text}</button>;
 };
 
 export default Button;
